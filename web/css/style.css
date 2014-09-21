@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-color:#99C;
+    color: black;
+    font-family: verdana;
+    text-align: center;
+}
+
+h1  {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+
+h2 	{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    font-style: strong;
+
+}
+
+h3 	{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: strong;
+}
+
+p {
+    color: black;
+    font-family: Arial Black, Gadget, sans-serif;
+    font-size: 24px;
+    font-style:strong,italic;
+}
+
+#page {
+    width: 850px;
+    margin: 0 auto;
+    background: #99C repeat-y;
+    text-align: center;
+    alignment-adjust: middle;
+}
+
+/* Sidebar */
+
+#sidebar {
+    float: left;
+    width: 240px;
+}
+
+/* Menu */
+
+#menu {
+    padding: 20px;
+    background: #85C329 repeat-x;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    padding: 10px 0;
+    background: repeat-x;
+}
+
+#menu li.first {
+    background: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 120%;
+    color: #FFFFFF;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align:center;
+    font-size:28px;
+
+}
+#logo {
+    background-image: url(../Images/sloca.png);
+    height: 150px;
+    width: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#footer {  
+    bottom: 0px;
+    font-size:16px;
+    text-align: center;   
+    height: 100% auto; 
+    color: #000000;
+    background-color:#FFFFFF;
+    position:fixed;
+    width: 100%; 
+} 
+
+f.text1{ 
+    font-size: 12px; 
+    font-weight: bold; 
+    font-family:Tahoma; 
+} 
